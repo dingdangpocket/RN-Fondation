@@ -4,25 +4,6 @@
             "outputFile": "com.awesometsproject.app-mergeDebugResources-27:/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/niegang/Desktop/wms-pda/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "6,1",
-                        "startColumns": "4,4",
-                        "startOffsets": "243,16",
-                        "endLines": "7,1",
-                        "endColumns": "54,40",
-                        "endOffsets": "355,52"
-                    },
-                    "to": {
-                        "startLines": "665,696",
-                        "startColumns": "4,4",
-                        "startOffsets": "42335,44474",
-                        "endLines": "666,696",
-                        "endColumns": "54,40",
-                        "endOffsets": "42447,44510"
-                    }
-                },
-                {
                     "source": "/Users/niegang/.gradle/caches/transforms-3/ff8cf5244b1452ffe5becfa7e824ee68/transformed/coordinatorlayout-1.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,6,16",
@@ -169,6 +150,23 @@
                     }
                 },
                 {
+                    "source": "/Users/niegang/Desktop/RN-Fondation/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "from": {
+                        "startLines": "8,10,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "286,390,156",
+                        "endColumns": "63,68,89",
+                        "endOffsets": "345,454,241"
+                    },
+                    "to": {
+                        "startLines": "656,657,664",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "41665,41729,42245",
+                        "endColumns": "63,68,89",
+                        "endOffsets": "41724,41793,42330"
+                    }
+                },
+                {
                     "source": "/Users/niegang/.gradle/caches/transforms-3/858a0a1ce5582950d896423a8f83984e/transformed/jetified-appcompat-resources-1.4.1/res/values/values.xml",
                     "from": {
                         "startLines": "2,29,36,47,74",
@@ -226,25 +224,6 @@
                     }
                 },
                 {
-                    "source": "/Users/niegang/Desktop/wms-pda/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "267"
-                    },
-                    "to": {
-                        "startLines": "826",
-                        "startColumns": "4",
-                        "startOffsets": "59992",
-                        "endLines": "829",
-                        "endColumns": "12",
-                        "endOffsets": "60170"
-                    }
-                },
-                {
                     "source": "/Users/niegang/.gradle/caches/transforms-3/3994986e4b6f29f228dfe8fb9122f0d7/transformed/core-1.7.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,89,90,94,95,96,97,104,114,162,194,231",
@@ -264,20 +243,22 @@
                     }
                 },
                 {
-                    "source": "/Users/niegang/Desktop/wms-pda/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "source": "/Users/niegang/Desktop/RN-Fondation/android/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "8,10,6",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "286,390,156",
-                        "endColumns": "63,68,89",
-                        "endOffsets": "345,454,241"
+                        "startLines": "6,1",
+                        "startColumns": "4,4",
+                        "startOffsets": "243,16",
+                        "endLines": "7,1",
+                        "endColumns": "54,40",
+                        "endOffsets": "355,52"
                     },
                     "to": {
-                        "startLines": "656,657,664",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "41665,41729,42245",
-                        "endColumns": "63,68,89",
-                        "endOffsets": "41724,41793,42330"
+                        "startLines": "665,696",
+                        "startColumns": "4,4",
+                        "startOffsets": "42335,44474",
+                        "endLines": "666,696",
+                        "endColumns": "54,40",
+                        "endOffsets": "42447,44510"
                     }
                 },
                 {
@@ -367,6 +348,25 @@
                         "endLines": "7111",
                         "endColumns": "24",
                         "endOffsets": "385851"
+                    }
+                },
+                {
+                    "source": "/Users/niegang/Desktop/RN-Fondation/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "267"
+                    },
+                    "to": {
+                        "startLines": "826",
+                        "startColumns": "4",
+                        "startOffsets": "59992",
+                        "endLines": "829",
+                        "endColumns": "12",
+                        "endOffsets": "60170"
                     }
                 },
                 {

@@ -2,224 +2,224 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.awesometsproject"
 4    android:versionCode="1"
-5    android:versionName="15.6-prod" >
+5    android:versionName="15.7-prod" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/Users/niegang/Desktop/wms-pda/android/app/src/debug/AndroidManifest.xml:5:5-77
-11-->/Users/niegang/Desktop/wms-pda/android/app/src/debug/AndroidManifest.xml:5:22-75
+11-->/Users/niegang/Desktop/RN-Fondation/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/niegang/Desktop/RN-Fondation/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- 下载 -->
-12-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:3:3-81
-12-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:3:20-78
+12-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:3:3-81
+12-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:3:20-78
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:5:3-78
-13-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:5:20-75
+13-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:5:3-78
+13-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:5:20-75
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 图片访问 -->
-14-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:6:3-79
-14-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:6:20-76
+14-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:6:3-79
+14-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:6:20-76
 15    <uses-permission android:name="android.permission.VPN_SERVICE" />
-15-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:9:3-68
-15-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:9:20-65
+15-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:9:3-68
+15-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:9:20-65
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:10:3-65
-16-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:10:20-62
+16-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:10:3-65
+16-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:10:20-62
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:11:3-77
-17-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:11:20-74
+17-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:11:3-77
+17-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:11:20-74
 18    <uses-permission
-18-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:12:3-93
+18-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:12:3-93
 19        android:name="android.permission.BLUETOOTH"
-19-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:12:20-63
+19-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:12:20-63
 20        android:maxSdkVersion="30" />
-20-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:12:64-90
+20-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:12:64-90
 21    <uses-permission
-21-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:13:3-99
+21-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:13:3-99
 22        android:name="android.permission.BLUETOOTH_ADMIN"
-22-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:13:20-69
+22-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:13:20-69
 23        android:maxSdkVersion="30" />
-23-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:13:70-96
+23-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:13:70-96
 24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-24-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:14:3-79
-24-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:14:20-76
+24-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:14:3-79
+24-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:14:20-76
 25    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-25-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:15:3-77
-25-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:15:20-74
+25-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:15:3-77
+25-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:15:20-74
 26    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
-26-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:16:3-71
-26-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:16:20-68
+26-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:16:3-71
+26-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:16:20-68
 27    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-27-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:17:3-74
-27-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:17:20-71
+27-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:17:3-74
+27-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:17:20-71
 28    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
-28-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:18:3-76
-28-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:18:20-73
+28-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:18:3-76
+28-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:18:20-73
 29    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-29-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:19:3-83
-29-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:19:20-80
+29-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:19:3-83
+29-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:19:20-80
 30    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-30-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:20:3-75
-30-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:20:20-72
+30-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:20:3-75
+30-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:20:20-72
 31
 32    <uses-feature
-32-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:21:3-88
+32-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:21:3-88
 33        android:name="android.hardware.bluetooth_le"
-33-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:21:17-61
+33-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:21:17-61
 34        android:required="true" />
-34-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:21:62-85
+34-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:21:62-85
 35    <uses-feature
-35-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:22:3-85
+35-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:22:3-85
 36        android:name="android.hardware.bluetooth"
-36-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:22:17-58
+36-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:22:17-58
 37        android:required="true" />
-37-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:22:59-82
+37-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:22:59-82
 38
 39    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 39-->[com.facebook.flipper:flipper:0.125.0] /Users/niegang/.gradle/caches/transforms-3/1de5dee59d1627955e42d3d6205f726e/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
 39-->[com.facebook.flipper:flipper:0.125.0] /Users/niegang/.gradle/caches/transforms-3/1de5dee59d1627955e42d3d6205f726e/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
 40    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- Required to access Google Play Licensing -->
-40-->[:react-native-wechat-lib] /Users/niegang/Desktop/wms-pda/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-75
-40-->[:react-native-wechat-lib] /Users/niegang/Desktop/wms-pda/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-72
+40-->[:react-native-wechat-lib] /Users/niegang/Desktop/RN-Fondation/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-75
+40-->[:react-native-wechat-lib] /Users/niegang/Desktop/RN-Fondation/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-72
 41    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
-41-->[:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
-41-->[:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+41-->[:rn-fetch-blob] /Users/niegang/Desktop/RN-Fondation/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+41-->[:rn-fetch-blob] /Users/niegang/Desktop/RN-Fondation/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
 42    <!--
 43         Required to keep CPU alive while downloading files
 44        (NOT to keep screen awake)
 45    -->
 46    <uses-permission android:name="android.permission.WAKE_LOCK" />
-46-->[:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-68
-46-->[:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:22-65
+46-->[:rn-fetch-blob] /Users/niegang/Desktop/RN-Fondation/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-68
+46-->[:rn-fetch-blob] /Users/niegang/Desktop/RN-Fondation/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:22-65
 47
 48    <application
-48-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:28:3-74:17
+48-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:28:3-74:17
 49        android:name="com.awesometsproject.MainApplication"
-49-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:31:5-36
+49-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:31:5-36
 50        android:allowBackup="false"
-50-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:35:5-32
+50-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:35:5-32
 51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 51-->[androidx.core:core:1.7.0] /Users/niegang/.gradle/caches/transforms-3/3994986e4b6f29f228dfe8fb9122f0d7/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 52        android:debuggable="true"
 53        android:icon="@mipmap/react"
-53-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:33:5-33
+53-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:33:5-33
 54        android:label="@string/app_name"
-54-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:32:5-37
+54-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:32:5-37
 55        android:requestLegacyExternalStorage="true"
-55-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:29:5-48
+55-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:29:5-48
 56        android:roundIcon="@mipmap/react"
-56-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:34:5-38
+56-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:34:5-38
 57        android:theme="@style/AppTheme"
-57-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:36:5-36
+57-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:36:5-36
 58        android:usesCleartextTraffic="true" >
-58-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:30:5-40
+58-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:30:5-40
 59        <activity
-59-->/Users/niegang/Desktop/wms-pda/android/app/src/debug/AndroidManifest.xml:11:9-111
+59-->/Users/niegang/Desktop/RN-Fondation/android/app/src/debug/AndroidManifest.xml:11:9-111
 60            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-60-->/Users/niegang/Desktop/wms-pda/android/app/src/debug/AndroidManifest.xml:11:19-83
+60-->/Users/niegang/Desktop/RN-Fondation/android/app/src/debug/AndroidManifest.xml:11:19-83
 61            android:exported="false" />
-61-->/Users/niegang/Desktop/wms-pda/android/app/src/debug/AndroidManifest.xml:11:84-108
+61-->/Users/niegang/Desktop/RN-Fondation/android/app/src/debug/AndroidManifest.xml:11:84-108
 62        <activity
-62-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:37:5-64:16
+62-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:37:5-64:16
 63            android:name="com.awesometsproject.MainActivity"
-63-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:38:7-35
+63-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:38:7-35
 64            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-64-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:40:7-116
+64-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:40:7-116
 65            android:exported="true"
-65-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:44:7-30
+65-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:44:7-30
 66            android:label="@string/app_name"
-66-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:39:7-39
+66-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:39:7-39
 67            android:launchMode="singleTask"
-67-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:41:7-38
+67-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:41:7-38
 68            android:screenOrientation="portrait"
-68-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:43:7-43
+68-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:43:7-43
 69            android:windowSoftInputMode="adjustResize" >
-69-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:42:7-49
+69-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:42:7-49
 70            <intent-filter>
-70-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:45:7-48:23
+70-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:45:7-48:23
 71                <action android:name="android.intent.action.MAIN" />
-71-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:46:9-61
-71-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:46:17-58
+71-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:46:9-61
+71-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:46:17-58
 72
 73                <category android:name="android.intent.category.LAUNCHER" />
-73-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:47:9-69
-73-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:47:19-66
+73-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:47:9-69
+73-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:47:19-66
 74            </intent-filter>
 75            <intent-filter>
-75-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:49:7-54:23
+75-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:49:7-54:23
 76                <action android:name="android.intent.action.VIEW" />
-76-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:50:9-61
-76-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:50:17-58
+76-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:50:9-61
+76-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:50:17-58
 77
 78                <category android:name="android.intent.category.DEFAULT" />
-78-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:51:9-68
-78-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:51:19-65
+78-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:51:9-68
+78-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:51:19-65
 79                <category android:name="android.intent.category.BROWSABLE" />
-79-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:52:9-70
-79-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:52:19-67
+79-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:52:9-70
+79-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:52:19-67
 80
 81                <data android:scheme="foundation" />
-81-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:53:9-45
-81-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:53:15-42
+81-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:53:9-45
+81-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:53:15-42
 82            </intent-filter>
 83            <intent-filter>
-83-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:55:7-62:23
+83-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:55:7-62:23
 84                <action android:name="android.intent.action.VIEW" />
-84-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:50:9-61
-84-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:50:17-58
+84-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:50:9-61
+84-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:50:17-58
 85
 86                <category android:name="android.intent.category.DEFAULT" />
-86-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:51:9-68
-86-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:51:19-65
+86-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:51:9-68
+86-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:51:19-65
 87                <category android:name="android.intent.category.BROWSABLE" />
-87-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:52:9-70
-87-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:52:19-67
+87-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:52:9-70
+87-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:52:19-67
 88
 89                <data android:scheme="http" />
-89-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:53:9-45
-89-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:53:15-42
+89-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:53:9-45
+89-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:53:15-42
 90                <data android:scheme="https" />
-90-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:53:9-45
-90-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:53:15-42
+90-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:53:9-45
+90-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:53:15-42
 91                <data android:host="www.example.com" />
-91-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:53:9-45
+91-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:53:9-45
 92            </intent-filter>
 93            <!-- DeepLinking -->
 94        </activity>
 95        <activity
-95-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:65:5-68:7
+95-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:65:5-68:7
 96            android:name="com.awesometsproject.wxapi.WXEntryActivity"
-96-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:65:15-52
+96-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:65:15-52
 97            android:exported="true"
-97-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:67:7-30
+97-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:67:7-30
 98            android:label="@string/app_name" />
-98-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:66:7-39
+98-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:66:7-39
 99        <activity
-99-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:69:5-71:33
+99-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:69:5-71:33
 100            android:name="com.awesometsproject.wxapi.WXPayEntryActivity"
-100-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:69:15-55
+100-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:69:15-55
 101            android:exported="true"
-101-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:71:7-30
+101-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:71:7-30
 102            android:label="@string/app_name" />
-102-->/Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:70:7-39
+102-->/Users/niegang/Desktop/RN-Fondation/android/app/src/main/AndroidManifest.xml:70:7-39
 103
 104        <provider
-104-->[:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+104-->[:rn-fetch-blob] /Users/niegang/Desktop/RN-Fondation/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
 105            android:name="com.RNFetchBlob.Utils.FileProvider"
-105-->[:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+105-->[:rn-fetch-blob] /Users/niegang/Desktop/RN-Fondation/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
 106            android:authorities="com.awesometsproject.provider"
-106-->[:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+106-->[:rn-fetch-blob] /Users/niegang/Desktop/RN-Fondation/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
 107            android:exported="false"
-107-->[:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+107-->[:rn-fetch-blob] /Users/niegang/Desktop/RN-Fondation/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
 108            android:grantUriPermissions="true" >
-108-->[:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+108-->[:rn-fetch-blob] /Users/niegang/Desktop/RN-Fondation/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
 109            <meta-data
-109-->[:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-41:58
+109-->[:rn-fetch-blob] /Users/niegang/Desktop/RN-Fondation/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-41:58
 110                android:name="android.support.FILE_PROVIDER_PATHS"
-110-->[:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:17-67
+110-->[:rn-fetch-blob] /Users/niegang/Desktop/RN-Fondation/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:17-67
 111                android:resource="@xml/provider_paths" />
-111-->[:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:17-55
+111-->[:rn-fetch-blob] /Users/niegang/Desktop/RN-Fondation/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:17-55
 112        </provider>
 113        <provider
 113-->[androidx.emoji2:emoji2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20

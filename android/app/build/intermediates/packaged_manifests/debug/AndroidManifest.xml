@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.awesometsproject"
     android:versionCode="1"
-    android:versionName="15.6-prod" >
+    android:versionName="15.7-prod" >
 
     <uses-sdk
         android:minSdkVersion="21"
