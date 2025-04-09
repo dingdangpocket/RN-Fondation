@@ -1,0 +1,13 @@
+
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".", // 设置基础路径
+    "paths": {
+      // 在这里定义别名映射
+      "src/*": ["src/*"],
+      // 如果有更多别名，可以继续添加
+    }
+  },
+  "extends": "@tsconfig/react-native/tsconfig.json"
+}

@@ -1,0 +1,506 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:1:1-75:12
+INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:1:1-75:12
+INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:1:1-75:12
+INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:1:1-75:12
+MERGED from [:react-native-view-shot] /Users/niegang/Desktop/wms-pda/node_modules/react-native-view-shot/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:bam.tech_react-native-image-resizer] /Users/niegang/Desktop/wms-pda/node_modules/@bam.tech/react-native-image-resizer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-async-storage_async-storage] /Users/niegang/Desktop/wms-pda/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-ble-manager] /Users/niegang/Desktop/wms-pda/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:react-native-code-push] /Users/niegang/Desktop/wms-pda/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-fs] /Users/niegang/Desktop/wms-pda/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/niegang/Desktop/wms-pda/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] /Users/niegang/Desktop/wms-pda/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/niegang/Desktop/wms-pda/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-svg] /Users/niegang/Desktop/wms-pda/node_modules/react-native-svg/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-wechat-lib] /Users/niegang/Desktop/wms-pda/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-45:12
+MERGED from [com.facebook.react:react-android:0.71.8] /Users/niegang/.gradle/caches/transforms-3/11657f31175e70366b4842da81b9a88d/transformed/jetified-react-android-0.71.8-release/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/niegang/.gradle/caches/transforms-3/61d40ffb2f470954573454bf76bc5917/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.react:hermes-android:0.71.8] /Users/niegang/.gradle/caches/transforms-3/37a567cde17bc813363af81f1dd32ad0/transformed/jetified-hermes-android-0.71.8-release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-reanimated] /Users/niegang/Desktop/wms-pda/node_modules/react-native-reanimated/android/build/.transforms/e591249b0d4fa91535fe5cb1c4415b53/transformed/jetified-react-native-reanimated-71-hermes/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/niegang/.gradle/caches/transforms-3/2fd73835c5f88322cd819e21091ff8cf/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/niegang/.gradle/caches/transforms-3/2869819762abc67901fd58a9b84e0d6d/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/niegang/.gradle/caches/transforms-3/858a0a1ce5582950d896423a8f83984e/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/niegang/.gradle/caches/transforms-3/305b398eafd13a2f85fecdd51619bbe3/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/7b19121545223a5719f58d9c1062612b/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/niegang/.gradle/caches/transforms-3/ac49766205ccd42177b4d582840522f2/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/niegang/.gradle/caches/transforms-3/a8fbff62c36ce62e335fe78db7cb3794/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/niegang/.gradle/caches/transforms-3/65bba5c785f706bb99b94479c9483ed7/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/niegang/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/niegang/.gradle/caches/transforms-3/be8f8d425926b2ab9ec0d8d0c3caae7a/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/niegang/.gradle/caches/transforms-3/d11b6876e6eb8c85795979da7f2458f5/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/niegang/.gradle/caches/transforms-3/b515b38be608f5a762db9315db6d46ab/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/niegang/.gradle/caches/transforms-3/2aa6ab37afa0837c2582296c511fb4cf/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/niegang/.gradle/caches/transforms-3/f34db75c36d507e27ae2d16b94e01790/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/niegang/.gradle/caches/transforms-3/e5c91e5784dbd81f33eacde252c8572e/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/niegang/.gradle/caches/transforms-3/2d00ce36e22a2af77ec4be7d2d1ee90f/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/niegang/.gradle/caches/transforms-3/801939cb7386065f1931d262bf18f4c2/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/niegang/.gradle/caches/transforms-3/26dd284997ea5200bdda05ee16e9c3af/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/niegang/.gradle/caches/transforms-3/85b891d6e6dd2f9e93f80d0a0b526306/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/niegang/.gradle/caches/transforms-3/892ea751fc3bc55e2a906d3bc34dde7e/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/niegang/.gradle/caches/transforms-3/c743467514c9a1418ad8b44787bc88ff/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/niegang/.gradle/caches/transforms-3/d6372b7f8ef226881c3187f647426fda/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/niegang/.gradle/caches/transforms-3/f930df29f740fec8a293485d87b2bd5b/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/niegang/.gradle/caches/transforms-3/8ba20bfd30ded3093d275d2efd57ae9b/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/niegang/.gradle/caches/transforms-3/4d3b0ee67dc9eeb8ef2448bd1c14a535/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/niegang/.gradle/caches/transforms-3/e62d75d4556f35c3d4d9f4be880dca94/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/niegang/.gradle/caches/transforms-3/fda04c29f37516b0434cb97f63a52366/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/niegang/.gradle/caches/transforms-3/d032a7771287ac848f1914782f85a55e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/niegang/.gradle/caches/transforms-3/f0b9f43e80fd6d6d46007d03a0449aa0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/niegang/.gradle/caches/transforms-3/6e131698b32dc3617ee6b529c70574d2/transformed/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/niegang/.gradle/caches/transforms-3/b29fb047d5ceb4e1e28b5eeac2bee910/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/niegang/.gradle/caches/transforms-3/ff8cf5244b1452ffe5becfa7e824ee68/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/niegang/.gradle/caches/transforms-3/ac26a9e17786512c843a370c78c8ea62/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/niegang/.gradle/caches/transforms-3/cfcf84fb74ea4e77b31ced41acc5b996/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/niegang/.gradle/caches/transforms-3/0fee5f4281872175dc7d846c5d287ade/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/niegang/.gradle/caches/transforms-3/6e936cb5fac4c550c2149379f4d482f0/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/niegang/.gradle/caches/transforms-3/50a0d758564336ca04635924d830a399/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/niegang/.gradle/caches/transforms-3/e32d4ee004e5151cc8aea47297e5af35/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/niegang/.gradle/caches/transforms-3/bebae82550fb8d5a8ff7bc1c7d5c4d31/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /Users/niegang/.gradle/caches/transforms-3/3994986e4b6f29f228dfe8fb9122f0d7/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/niegang/.gradle/caches/transforms-3/a082b73e574a24be0b6713b949b71b9a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/niegang/.gradle/caches/transforms-3/960424dcc50454306bc6ce467afe7684/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/niegang/.gradle/caches/transforms-3/9502a6bb71cbe65ff7605c9abe0fd9c7/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/niegang/.gradle/caches/transforms-3/3bae22501956cb2f40cb2aae7d68aabd/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/niegang/.gradle/caches/transforms-3/de52fc3fb23578f02940ffac44877ce3/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/niegang/.gradle/caches/transforms-3/17b02ce1dff236ff6ec321ff7bd5da14/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/niegang/.gradle/caches/transforms-3/5acd99f45ac5473f0f7929dc05b6c0ab/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/niegang/.gradle/caches/transforms-3/63bd4c0fcce7ee6ad70bcbb2be8cf85c/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/niegang/.gradle/caches/transforms-3/3584cd402b4fda3a4c5564688eaa83ea/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/niegang/.gradle/caches/transforms-3/c3849af1901b8ea4ddc083287c7f1748/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/niegang/.gradle/caches/transforms-3/ed8a1d89ad05235447ace8e492452d0a/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/niegang/.gradle/caches/transforms-3/2c406cc44c7e51a6483579314a113f0f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:1:1-75:12
+INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:1:1-75:12
+INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:1:1-75:12
+	package
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:1:70-100
+		INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:1:1-75:12
+		INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:1:1-75:12
+		INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:3:3-81
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:3:20-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:5:3-78
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:5:20-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:6:3-79
+MERGED from [:react-native-fs] /Users/niegang/Desktop/wms-pda/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+MERGED from [:react-native-fs] /Users/niegang/Desktop/wms-pda/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+MERGED from [:react-native-wechat-lib] /Users/niegang/Desktop/wms-pda/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-81
+MERGED from [:react-native-wechat-lib] /Users/niegang/Desktop/wms-pda/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-81
+MERGED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:5-81
+MERGED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:5-81
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:6:20-76
+uses-permission#android.permission.VPN_SERVICE
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:9:3-68
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:9:20-65
+uses-permission#android.permission.INTERNET
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:10:3-65
+MERGED from [:react-native-code-push] /Users/niegang/Desktop/wms-pda/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-code-push] /Users/niegang/Desktop/wms-pda/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-wechat-lib] /Users/niegang/Desktop/wms-pda/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-wechat-lib] /Users/niegang/Desktop/wms-pda/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-67
+MERGED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:10:20-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:11:3-77
+MERGED from [:react-native-wechat-lib] /Users/niegang/Desktop/wms-pda/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-79
+MERGED from [:react-native-wechat-lib] /Users/niegang/Desktop/wms-pda/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-79
+MERGED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:5-79
+MERGED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:11:20-74
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:12:3-93
+MERGED from [:react-native-ble-manager] /Users/niegang/Desktop/wms-pda/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
+MERGED from [:react-native-ble-manager] /Users/niegang/Desktop/wms-pda/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
+	android:maxSdkVersion
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:12:64-90
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:12:20-63
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:13:3-99
+MERGED from [:react-native-ble-manager] /Users/niegang/Desktop/wms-pda/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-74
+MERGED from [:react-native-ble-manager] /Users/niegang/Desktop/wms-pda/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-74
+	android:maxSdkVersion
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:13:70-96
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:13:20-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:14:3-79
+MERGED from [:react-native-ble-manager] /Users/niegang/Desktop/wms-pda/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+MERGED from [:react-native-ble-manager] /Users/niegang/Desktop/wms-pda/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:14:20-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:15:3-77
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:15:20-74
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:16:3-71
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:16:20-68
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:17:3-74
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:17:20-71
+uses-permission#android.permission.BLUETOOTH_ADVERTISE
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:18:3-76
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:18:20-73
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:19:3-83
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:19:20-80
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:20:3-75
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:20:20-72
+uses-feature#android.hardware.bluetooth_le
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:21:3-88
+MERGED from [:react-native-ble-manager] /Users/niegang/Desktop/wms-pda/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-15:36
+MERGED from [:react-native-ble-manager] /Users/niegang/Desktop/wms-pda/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:21:62-85
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:21:17-61
+uses-feature#android.hardware.bluetooth
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:22:3-85
+	android:required
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:22:59-82
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:22:17-58
+application
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:28:3-74:17
+MERGED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:5-43:19
+MERGED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:5-43:19
+MERGED from [com.facebook.react:react-android:0.71.8] /Users/niegang/.gradle/caches/transforms-3/11657f31175e70366b4842da81b9a88d/transformed/jetified-react-android-0.71.8-release/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-android:0.71.8] /Users/niegang/.gradle/caches/transforms-3/11657f31175e70366b4842da81b9a88d/transformed/jetified-react-android-0.71.8-release/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/niegang/.gradle/caches/transforms-3/2fd73835c5f88322cd819e21091ff8cf/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/niegang/.gradle/caches/transforms-3/2fd73835c5f88322cd819e21091ff8cf/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/niegang/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/niegang/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/niegang/.gradle/caches/transforms-3/be8f8d425926b2ab9ec0d8d0c3caae7a/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/niegang/.gradle/caches/transforms-3/be8f8d425926b2ab9ec0d8d0c3caae7a/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/niegang/.gradle/caches/transforms-3/fda04c29f37516b0434cb97f63a52366/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/niegang/.gradle/caches/transforms-3/fda04c29f37516b0434cb97f63a52366/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.7.0] /Users/niegang/.gradle/caches/transforms-3/3994986e4b6f29f228dfe8fb9122f0d7/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/niegang/.gradle/caches/transforms-3/3994986e4b6f29f228dfe8fb9122f0d7/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/niegang/.gradle/caches/transforms-3/17b02ce1dff236ff6ec321ff7bd5da14/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/niegang/.gradle/caches/transforms-3/17b02ce1dff236ff6ec321ff7bd5da14/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:29:5-48
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/niegang/.gradle/caches/transforms-3/3994986e4b6f29f228dfe8fb9122f0d7/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:32:5-37
+	android:roundIcon
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:34:5-38
+	android:icon
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:33:5-33
+	android:allowBackup
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:35:5-32
+	android:theme
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:36:5-36
+	android:usesCleartextTraffic
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:30:5-40
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:31:5-36
+activity#com.awesometsproject.MainActivity
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:37:5-64:16
+	android:screenOrientation
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:43:7-43
+	android:label
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:39:7-39
+	android:launchMode
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:41:7-38
+	android:windowSoftInputMode
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:42:7-49
+	android:exported
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:44:7-30
+	android:configChanges
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:40:7-116
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:38:7-35
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:45:7-48:23
+action#android.intent.action.MAIN
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:46:9-61
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:46:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:47:9-69
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:47:19-66
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:foundation
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:49:7-54:23
+action#android.intent.action.VIEW
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:50:9-61
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:50:17-58
+category#android.intent.category.DEFAULT
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:51:9-68
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:51:19-65
+category#android.intent.category.BROWSABLE
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:52:9-70
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:52:19-67
+data
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:53:9-45
+	android:host
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:61:15-45
+	android:scheme
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:53:15-42
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:www.example.com+data:scheme:http+data:scheme:https
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:55:7-62:23
+activity#com.awesometsproject.wxapi.WXEntryActivity
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:65:5-68:7
+	android:label
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:66:7-39
+	android:exported
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:67:7-30
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:65:15-52
+activity#com.awesometsproject.wxapi.WXPayEntryActivity
+ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:69:5-71:33
+	android:label
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:70:7-39
+	android:exported
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:71:7-30
+	android:name
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml:69:15-55
+uses-sdk
+INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-view-shot] /Users/niegang/Desktop/wms-pda/node_modules/react-native-view-shot/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-view-shot] /Users/niegang/Desktop/wms-pda/node_modules/react-native-view-shot/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:bam.tech_react-native-image-resizer] /Users/niegang/Desktop/wms-pda/node_modules/@bam.tech/react-native-image-resizer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:bam.tech_react-native-image-resizer] /Users/niegang/Desktop/wms-pda/node_modules/@bam.tech/react-native-image-resizer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/niegang/Desktop/wms-pda/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/niegang/Desktop/wms-pda/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-ble-manager] /Users/niegang/Desktop/wms-pda/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-ble-manager] /Users/niegang/Desktop/wms-pda/node_modules/react-native-ble-manager/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-code-push] /Users/niegang/Desktop/wms-pda/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-code-push] /Users/niegang/Desktop/wms-pda/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fs] /Users/niegang/Desktop/wms-pda/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fs] /Users/niegang/Desktop/wms-pda/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/niegang/Desktop/wms-pda/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/niegang/Desktop/wms-pda/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/niegang/Desktop/wms-pda/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/niegang/Desktop/wms-pda/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/niegang/Desktop/wms-pda/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/niegang/Desktop/wms-pda/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/niegang/Desktop/wms-pda/node_modules/react-native-svg/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/niegang/Desktop/wms-pda/node_modules/react-native-svg/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-wechat-lib] /Users/niegang/Desktop/wms-pda/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-wechat-lib] /Users/niegang/Desktop/wms-pda/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-android:0.71.8] /Users/niegang/.gradle/caches/transforms-3/11657f31175e70366b4842da81b9a88d/transformed/jetified-react-android-0.71.8-release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-android:0.71.8] /Users/niegang/.gradle/caches/transforms-3/11657f31175e70366b4842da81b9a88d/transformed/jetified-react-android-0.71.8-release/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/niegang/.gradle/caches/transforms-3/61d40ffb2f470954573454bf76bc5917/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/niegang/.gradle/caches/transforms-3/61d40ffb2f470954573454bf76bc5917/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.react:hermes-android:0.71.8] /Users/niegang/.gradle/caches/transforms-3/37a567cde17bc813363af81f1dd32ad0/transformed/jetified-hermes-android-0.71.8-release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:hermes-android:0.71.8] /Users/niegang/.gradle/caches/transforms-3/37a567cde17bc813363af81f1dd32ad0/transformed/jetified-hermes-android-0.71.8-release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/niegang/Desktop/wms-pda/node_modules/react-native-reanimated/android/build/.transforms/e591249b0d4fa91535fe5cb1c4415b53/transformed/jetified-react-native-reanimated-71-hermes/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/niegang/Desktop/wms-pda/node_modules/react-native-reanimated/android/build/.transforms/e591249b0d4fa91535fe5cb1c4415b53/transformed/jetified-react-native-reanimated-71-hermes/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/niegang/.gradle/caches/transforms-3/2fd73835c5f88322cd819e21091ff8cf/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/niegang/.gradle/caches/transforms-3/2fd73835c5f88322cd819e21091ff8cf/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/niegang/.gradle/caches/transforms-3/2869819762abc67901fd58a9b84e0d6d/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/niegang/.gradle/caches/transforms-3/2869819762abc67901fd58a9b84e0d6d/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/niegang/.gradle/caches/transforms-3/858a0a1ce5582950d896423a8f83984e/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/niegang/.gradle/caches/transforms-3/858a0a1ce5582950d896423a8f83984e/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/niegang/.gradle/caches/transforms-3/305b398eafd13a2f85fecdd51619bbe3/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/niegang/.gradle/caches/transforms-3/305b398eafd13a2f85fecdd51619bbe3/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/7b19121545223a5719f58d9c1062612b/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/7b19121545223a5719f58d9c1062612b/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/niegang/.gradle/caches/transforms-3/ac49766205ccd42177b4d582840522f2/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/niegang/.gradle/caches/transforms-3/ac49766205ccd42177b4d582840522f2/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/niegang/.gradle/caches/transforms-3/a8fbff62c36ce62e335fe78db7cb3794/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/niegang/.gradle/caches/transforms-3/a8fbff62c36ce62e335fe78db7cb3794/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/niegang/.gradle/caches/transforms-3/65bba5c785f706bb99b94479c9483ed7/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/niegang/.gradle/caches/transforms-3/65bba5c785f706bb99b94479c9483ed7/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/niegang/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/niegang/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/niegang/.gradle/caches/transforms-3/be8f8d425926b2ab9ec0d8d0c3caae7a/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/niegang/.gradle/caches/transforms-3/be8f8d425926b2ab9ec0d8d0c3caae7a/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/niegang/.gradle/caches/transforms-3/d11b6876e6eb8c85795979da7f2458f5/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/niegang/.gradle/caches/transforms-3/d11b6876e6eb8c85795979da7f2458f5/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/niegang/.gradle/caches/transforms-3/b515b38be608f5a762db9315db6d46ab/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/niegang/.gradle/caches/transforms-3/b515b38be608f5a762db9315db6d46ab/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/niegang/.gradle/caches/transforms-3/2aa6ab37afa0837c2582296c511fb4cf/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/niegang/.gradle/caches/transforms-3/2aa6ab37afa0837c2582296c511fb4cf/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/niegang/.gradle/caches/transforms-3/f34db75c36d507e27ae2d16b94e01790/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/niegang/.gradle/caches/transforms-3/f34db75c36d507e27ae2d16b94e01790/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/niegang/.gradle/caches/transforms-3/e5c91e5784dbd81f33eacde252c8572e/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/niegang/.gradle/caches/transforms-3/e5c91e5784dbd81f33eacde252c8572e/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/niegang/.gradle/caches/transforms-3/2d00ce36e22a2af77ec4be7d2d1ee90f/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/niegang/.gradle/caches/transforms-3/2d00ce36e22a2af77ec4be7d2d1ee90f/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/niegang/.gradle/caches/transforms-3/801939cb7386065f1931d262bf18f4c2/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/niegang/.gradle/caches/transforms-3/801939cb7386065f1931d262bf18f4c2/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/niegang/.gradle/caches/transforms-3/26dd284997ea5200bdda05ee16e9c3af/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/niegang/.gradle/caches/transforms-3/26dd284997ea5200bdda05ee16e9c3af/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/niegang/.gradle/caches/transforms-3/85b891d6e6dd2f9e93f80d0a0b526306/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/niegang/.gradle/caches/transforms-3/85b891d6e6dd2f9e93f80d0a0b526306/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/niegang/.gradle/caches/transforms-3/892ea751fc3bc55e2a906d3bc34dde7e/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/niegang/.gradle/caches/transforms-3/892ea751fc3bc55e2a906d3bc34dde7e/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/niegang/.gradle/caches/transforms-3/c743467514c9a1418ad8b44787bc88ff/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/niegang/.gradle/caches/transforms-3/c743467514c9a1418ad8b44787bc88ff/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/niegang/.gradle/caches/transforms-3/d6372b7f8ef226881c3187f647426fda/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/niegang/.gradle/caches/transforms-3/d6372b7f8ef226881c3187f647426fda/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/niegang/.gradle/caches/transforms-3/f930df29f740fec8a293485d87b2bd5b/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/niegang/.gradle/caches/transforms-3/f930df29f740fec8a293485d87b2bd5b/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/niegang/.gradle/caches/transforms-3/8ba20bfd30ded3093d275d2efd57ae9b/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/niegang/.gradle/caches/transforms-3/8ba20bfd30ded3093d275d2efd57ae9b/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/niegang/.gradle/caches/transforms-3/4d3b0ee67dc9eeb8ef2448bd1c14a535/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/niegang/.gradle/caches/transforms-3/4d3b0ee67dc9eeb8ef2448bd1c14a535/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/niegang/.gradle/caches/transforms-3/e62d75d4556f35c3d4d9f4be880dca94/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/niegang/.gradle/caches/transforms-3/e62d75d4556f35c3d4d9f4be880dca94/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/niegang/.gradle/caches/transforms-3/fda04c29f37516b0434cb97f63a52366/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/niegang/.gradle/caches/transforms-3/fda04c29f37516b0434cb97f63a52366/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/niegang/.gradle/caches/transforms-3/d032a7771287ac848f1914782f85a55e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/niegang/.gradle/caches/transforms-3/d032a7771287ac848f1914782f85a55e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/niegang/.gradle/caches/transforms-3/f0b9f43e80fd6d6d46007d03a0449aa0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/niegang/.gradle/caches/transforms-3/f0b9f43e80fd6d6d46007d03a0449aa0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/niegang/.gradle/caches/transforms-3/6e131698b32dc3617ee6b529c70574d2/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/niegang/.gradle/caches/transforms-3/6e131698b32dc3617ee6b529c70574d2/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/niegang/.gradle/caches/transforms-3/b29fb047d5ceb4e1e28b5eeac2bee910/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/niegang/.gradle/caches/transforms-3/b29fb047d5ceb4e1e28b5eeac2bee910/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/niegang/.gradle/caches/transforms-3/ff8cf5244b1452ffe5becfa7e824ee68/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/niegang/.gradle/caches/transforms-3/ff8cf5244b1452ffe5becfa7e824ee68/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/niegang/.gradle/caches/transforms-3/ac26a9e17786512c843a370c78c8ea62/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/niegang/.gradle/caches/transforms-3/ac26a9e17786512c843a370c78c8ea62/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/niegang/.gradle/caches/transforms-3/cfcf84fb74ea4e77b31ced41acc5b996/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/niegang/.gradle/caches/transforms-3/cfcf84fb74ea4e77b31ced41acc5b996/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/niegang/.gradle/caches/transforms-3/0fee5f4281872175dc7d846c5d287ade/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/niegang/.gradle/caches/transforms-3/0fee5f4281872175dc7d846c5d287ade/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/niegang/.gradle/caches/transforms-3/6e936cb5fac4c550c2149379f4d482f0/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/niegang/.gradle/caches/transforms-3/6e936cb5fac4c550c2149379f4d482f0/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/niegang/.gradle/caches/transforms-3/50a0d758564336ca04635924d830a399/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/niegang/.gradle/caches/transforms-3/50a0d758564336ca04635924d830a399/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/niegang/.gradle/caches/transforms-3/e32d4ee004e5151cc8aea47297e5af35/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/niegang/.gradle/caches/transforms-3/e32d4ee004e5151cc8aea47297e5af35/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/niegang/.gradle/caches/transforms-3/bebae82550fb8d5a8ff7bc1c7d5c4d31/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/niegang/.gradle/caches/transforms-3/bebae82550fb8d5a8ff7bc1c7d5c4d31/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /Users/niegang/.gradle/caches/transforms-3/3994986e4b6f29f228dfe8fb9122f0d7/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/niegang/.gradle/caches/transforms-3/3994986e4b6f29f228dfe8fb9122f0d7/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/niegang/.gradle/caches/transforms-3/a082b73e574a24be0b6713b949b71b9a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/niegang/.gradle/caches/transforms-3/a082b73e574a24be0b6713b949b71b9a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/niegang/.gradle/caches/transforms-3/960424dcc50454306bc6ce467afe7684/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/niegang/.gradle/caches/transforms-3/960424dcc50454306bc6ce467afe7684/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/niegang/.gradle/caches/transforms-3/9502a6bb71cbe65ff7605c9abe0fd9c7/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/niegang/.gradle/caches/transforms-3/9502a6bb71cbe65ff7605c9abe0fd9c7/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/niegang/.gradle/caches/transforms-3/3bae22501956cb2f40cb2aae7d68aabd/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/niegang/.gradle/caches/transforms-3/3bae22501956cb2f40cb2aae7d68aabd/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/niegang/.gradle/caches/transforms-3/de52fc3fb23578f02940ffac44877ce3/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/niegang/.gradle/caches/transforms-3/de52fc3fb23578f02940ffac44877ce3/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/niegang/.gradle/caches/transforms-3/17b02ce1dff236ff6ec321ff7bd5da14/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/niegang/.gradle/caches/transforms-3/17b02ce1dff236ff6ec321ff7bd5da14/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/niegang/.gradle/caches/transforms-3/5acd99f45ac5473f0f7929dc05b6c0ab/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/niegang/.gradle/caches/transforms-3/5acd99f45ac5473f0f7929dc05b6c0ab/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/niegang/.gradle/caches/transforms-3/63bd4c0fcce7ee6ad70bcbb2be8cf85c/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/niegang/.gradle/caches/transforms-3/63bd4c0fcce7ee6ad70bcbb2be8cf85c/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/niegang/.gradle/caches/transforms-3/3584cd402b4fda3a4c5564688eaa83ea/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/niegang/.gradle/caches/transforms-3/3584cd402b4fda3a4c5564688eaa83ea/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/niegang/.gradle/caches/transforms-3/c3849af1901b8ea4ddc083287c7f1748/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/niegang/.gradle/caches/transforms-3/c3849af1901b8ea4ddc083287c7f1748/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/niegang/.gradle/caches/transforms-3/ed8a1d89ad05235447ace8e492452d0a/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/niegang/.gradle/caches/transforms-3/ed8a1d89ad05235447ace8e492452d0a/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/niegang/.gradle/caches/transforms-3/2c406cc44c7e51a6483579314a113f0f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/niegang/.gradle/caches/transforms-3/2c406cc44c7e51a6483579314a113f0f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/niegang/Desktop/wms-pda/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:react-native-wechat-lib] /Users/niegang/Desktop/wms-pda/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-76
+MERGED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:5-76
+MERGED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:5-76
+	android:name
+		ADDED from [:react-native-wechat-lib] /Users/niegang/Desktop/wms-pda/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:react-native-wechat-lib] /Users/niegang/Desktop/wms-pda/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from [:react-native-wechat-lib] /Users/niegang/Desktop/wms-pda/node_modules/react-native-wechat-lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-72
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-73
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:22-65
+provider#com.RNFetchBlob.Utils.FileProvider
+ADDED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-42:20
+	android:grantUriPermissions
+		ADDED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-47
+	android:authorities
+		ADDED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-60
+	android:exported
+		ADDED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-41:58
+	android:resource
+		ADDED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:17-55
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/niegang/Desktop/wms-pda/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-67
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/niegang/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/niegang/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/niegang/.gradle/caches/transforms-3/be8f8d425926b2ab9ec0d8d0c3caae7a/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/niegang/.gradle/caches/transforms-3/be8f8d425926b2ab9ec0d8d0c3caae7a/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/niegang/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/niegang/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/niegang/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/niegang/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

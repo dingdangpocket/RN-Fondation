@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">爱安特</string>
+    <!-- 开发环境的 CodePush 部署密钥 -->
+    <!-- <string moduleConfig="true" name="CodePushDeploymentKeyDev">
+        bvgMlSlCWHMrDynlJJtjqdHoJDKuaZaxqjyHQ</string>
+    测试环境的 CodePush 部署密钥 -->
+    <string moduleConfig="true" name="CodePushDeploymentKey">
+        Ef4AsH-epyxHqSU8qsmUP3m8yLiFA0WVUPM4L</string>
+</resources>
