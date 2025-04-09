@@ -6,7 +6,7 @@ const scale = (size, oritation) => {
     return scaledSize;
   }
   if (oritation === "h") {
-    const scaledSize = (Dimensions.get("window").width / 775) * size;
+    const scaledSize = (Dimensions.get("window").height / 812) * size;
     return scaledSize;
   }
 };

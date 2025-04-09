@@ -10,10 +10,10 @@ const Home = () => {
       <Text
         style={{
           fontSize: scale(30, "w"),
-          lineHeight: scale(100, "h"),
+          lineHeight: scale(80, "h"),
           color: "black",
           backgroundColor: "red",
-          marginTop: scale(1520, "h"),
+          marginTop: scale(650, "h"),
         }}
       >
         Home
