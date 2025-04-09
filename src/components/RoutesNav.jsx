@@ -30,13 +30,6 @@ const RoutesNav = () => {
                 name={item.name}
                 options={({ navigation }) => ({
                   ...item.option,
-                  headerStyle: {
-                    backgroundColor: "#004D92",
-                    elevation: 0,
-                  },
-                  headerTitleAlign: "center",
-                  headerTintColor: "#fff",
-                  headerLeft: () => <BackButton />,
                 })}
                 component={item.component}
               />
