@@ -1,54 +1,80 @@
-import { API_URL, VERSION } from "src/api/apiConfig";
-import { getNavigation, getToastAndroid } from "src/functions/tool";
-// @params;
-// const options = {
-//   path: "/mock/12/wms-pda-api/base/config/getConfig",
-//   method: "GET",
-//  authorization: `Bearer ${options?.token ?? null}`,
-//   storageId: "1",
-//   bodyParams: { name: "张三", id: 98986763, idempotentKey: "87289789736" },
-//   onNav: function onNav(params) {},
-// };
-const fetchData = async (options, handleCode) => {
-  // if (options) console.log("path", options.path);
-  if (options) console.log("请求参数", options.bodyParams);
-  const timestamp = new Date();
-  const response = await fetch(`${API_URL}${options.path}`, {
-    method: options.method,
-    headers: {
+// src/api/apiConfig.js
+export const API_URL = "your_api_url";
+export const VERSION = "your_app_version";
+
+// src/api/fetchData.js
+import { API_URL, VERSION } from "./apiConfig";
+
+// 配置常量
+const DEFAULT_TIMEOUT = 15000;
+const VALID_METHODS = new Set(["GET", "POST", "PUT", "DELETE", "PATCH"]);
+
+export const fetchData = async (options) => {
+  // 参数校验
+  if (!options?.path) throw new Error("API path is required");
+  if (!VALID_METHODS.has(options.method?.toUpperCase())) {
+    throw new Error(`Invalid method: ${options.method}`);
+  }
+
+  const controller = new AbortController();
+  const timeout = options.timeout || DEFAULT_TIMEOUT;
+  const timeoutId = setTimeout(() => controller.abort(), timeout);
+
+  try {
+    // 构造请求头
+    const headers = {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${options?.token ?? null}`,
       "Client-Version": VERSION,
       app: "wms",
-      timestamp: timestamp.getTime(),
-      Storage: options?.storageId ?? null,
-    },
-    body: options?.bodyParams
-      ? JSON.stringify({
-          ...options?.bodyParams,
-        })
-      : null,
-  })
-    .then(async (response) => {
-      const res = await response.json();
-      // 特殊code处理
-      if (res.code === 1400 || res.code === 401) {
-        const navigation = getNavigation();
-        const ToastAndroid = getToastAndroid();
-        ToastAndroid.show("登陆已过期，请重新登陆;", ToastAndroid.SHORT);
-        setTimeout(() => {
-          navigation.navigate("Login"); // 跳转到登录页
-        }, 600);
-      }
-      return res;
-    })
-    .catch((error) => {
-      // console.error("请求异常", error);
-      return Promise.resolve({
-        code: 999,
-        msg: "网络错误，请稍后再试",
-      });
+      timestamp: Date.now().toString(),
+      Authorization: `Bearer ${options.token}`,
+    };
+    // 发送请求
+    const response = await fetch(`${API_URL}${options.path}`, {
+      method: options.method.toUpperCase(),
+      headers,
+      body: options.bodyParams,
     });
-  return response;
+
+    // 处理响应
+    const responseData = await response.json().catch(() => ({}));
+    if (!response.ok) {
+      throw new Error(
+        responseData.message ||
+          `HTTP Error ${response.status}: ${response.statusText}`
+      );
+    }
+    // 处理业务错误码（根据实际API规范调整）
+    if (responseData.code !== undefined && responseData.code !== 0) {
+      return {
+        data: null,
+        success: false,
+        code: responseData.code,
+        message: responseData.message || "Business logic error",
+      };
+    }
+    return {
+      data: responseData.data ?? responseData,
+      success: true,
+      code: 0,
+    };
+  } catch (error) {
+    return error;
+  }
 };
-export default fetchData;
+
+// 使用示例
+const getData = async () => {
+  const result = await fetchData({
+    path: "/endpoint",
+    method: "GET",
+    token: "your_token",
+    storageId: "storage_1",
+    bodyParams: { page: 1 },
+  });
+  if (!result.success) {
+    console.error(`Error ${result.code}: ${result.message}`);
+    return;
+  }
+  console.log("Received data:", result.data);
+};
