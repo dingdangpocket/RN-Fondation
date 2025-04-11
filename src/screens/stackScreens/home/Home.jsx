@@ -15,10 +15,10 @@ const Home = () => {
       >
         <Text
           style={{
+            color: "white",
+            backgroundColor: "green",
             fontSize: scale(30, "w"),
             lineHeight: scale(80, "h"),
-            color: "black",
-            backgroundColor: "green",
             marginTop: scale(650, "h"),
           }}
         >

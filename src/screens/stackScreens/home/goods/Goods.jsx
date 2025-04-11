@@ -11,9 +11,9 @@ const Goods = () => {
         style={{
           fontSize: scale(30, "w"),
           lineHeight: scale(80, "h"),
-          color: "black",
-          backgroundColor: "green",
           marginTop: scale(650, "h"),
+          color: "white",
+          backgroundColor: "green",
         }}
       >
         Goods

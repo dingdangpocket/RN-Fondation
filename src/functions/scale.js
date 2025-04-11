@@ -1,13 +1,24 @@
 import { Dimensions } from "react-native";
-const scale = (size, oritation) => {
-  if (oritation === "w") {
-    const scaledSize = (Dimensions.get("window").width / 375) * size;
-
-    return scaledSize;
+const scale = (size, orientation = "w") => {
+  if (typeof size !== "number") {
+    console.warn("The size parameter must be a number");
+    return size;
   }
-  if (oritation === "h") {
-    const scaledSize = (Dimensions.get("window").height / 812) * size;
-    return scaledSize;
+  const { width, height } = Dimensions.get("window");
+  const baseWidth = 375;
+  const baseHeight = 812;
+  let scaledSize;
+  switch (orientation) {
+    case "w":
+      scaledSize = (width / baseWidth) * size;
+      break;
+    case "h":
+      scaledSize = (height / baseHeight) * size;
+      break;
+    default:
+      console.warn('Invalid orientation. Use "w" for width or "h" for height.');
+      scaledSize = size;
   }
+  return scaledSize;
 };
 export default scale;
