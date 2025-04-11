@@ -1,27 +1,47 @@
 import { API_URL, VERSION } from "src/api/apiConfig";
-const fetchData = async (options, handleCode) => {
-  const response = await fetch(`${API_URL}${options.path}`, {
-    method: options.method,
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${options?.token ?? null}`,
-      "Client-Version": VERSION,
-      app: "wms",
-    },
-    body: options?.bodyParams
-      ? JSON.stringify({
-          ...options?.bodyParams,
-        })
-      : null,
-  })
-    .then(async (response) => {
-      const res = await response.json();
-      // 特殊code处理
-      return res;
-    })
-    .catch((error) => {
-       console.error("请求异常", error);
+
+const fetchData = async (params, retryCount = 0) => {
+  if (!params || !params.path || !params.method) {
+    throw new Error("Invalid params: 'path' and 'method' are required.");
+  }
+  const MAX_RETRIES = 3;
+  const TIMEOUT_MS = 5000;
+
+  try {
+    // 创建 AbortController 实例
+    const controller = new AbortController();
+    const signal = controller.signal;
+
+    // 设置超时
+    const timeoutId = setTimeout(() => {
+      controller.abort();
+    }, TIMEOUT_MS);
+
+    const response = await fetch(`${API_URL}${params.path}`, {
+      method: params.method,
+      headers: {
+        "Content-Type": "application/json",
+        ...(params.token && { Authorization: `Bearer ${params.token}` }),
+        "Client-Version": VERSION,
+        app: "wms",
+      },
+      body: params.bodyParams ? JSON.stringify(params.bodyParams) : null,
+      signal,
     });
-  return response;
+    clearTimeout(timeoutId);
+    const res = await response.json();
+    return res;
+  } catch (error) {
+    if (error.name === "AbortError") {
+      console.error("网络请求异常,请稍后再试");
+    } else {
+      console.error("网络请求异常,请稍后再试", error);
+    }
+    if (retryCount < MAX_RETRIES) {
+      return fetchData(params, retryCount + 1);
+    } else {
+      console.error("网络请求异常,请稍后再试");
+    }
+  }
 };
 export default fetchData;
