@@ -5,6 +5,7 @@ import TasksTab from "src/screens/tabScreens/TasksTab";
 import WorkTab from "src/screens/tabScreens/WorkTab";
 import { TouchableOpacity } from "react-native";
 import { WorkTabIcon } from "src/icons";
+import { useTranslation } from "react-i18next";
 const Tab = createBottomTabNavigator();
 const IconSet = {
   ACTIVE_WorkTab: <WorkTabIcon width="68%" height="68%" color="#1296db" />,
@@ -13,17 +14,18 @@ const IconSet = {
   UNACTIVE_TasksTab: <WorkTabIcon width="63%" height="63%" color="#6b6a62" />,
 };
 const HomeTabsRoutes = () => {
+  const { t } = useTranslation();
   const HomeTabRoutesConfig = [
     {
       name: "TasksTab",
       component: TasksTab,
-      option: { title: "任务列表" },
+      option: { title: t("home") },
       tabBarBadge: null,
     },
     {
       name: "WorkTab",
       component: WorkTab,
-      option: { title: "工作台" },
+      option: { title: t("main") },
       tabBarBadge: null,
     },
   ];
