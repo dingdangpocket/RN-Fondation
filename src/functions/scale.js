@@ -1,9 +1,5 @@
 import { Dimensions } from "react-native";
 const scale = (size, orientation = "w") => {
-  if (typeof size !== "number") {
-    console.warn("The size parameter must be a number");
-    return size;
-  }
   const { width, height } = Dimensions.get("window");
   const baseWidth = 375;
   const baseHeight = 812;

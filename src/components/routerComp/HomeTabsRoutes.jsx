@@ -63,7 +63,6 @@ const HomeTabsRoutes = () => {
                 maxHeight: 16,
                 fontSize: 9,
                 lineHeight: 15,
-                backgroundColor: "rgba(255,51,0,0.9)",
               },
             }}
             component={item.component}

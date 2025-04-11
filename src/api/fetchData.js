@@ -6,7 +6,6 @@ const fetchData = async (params, retryCount = 0) => {
   }
   const MAX_RETRIES = 3;
   const TIMEOUT_MS = 10000;
-
   try {
     const controller = new AbortController();
     const signal = controller.signal;
