@@ -10,7 +10,6 @@ const MainStackRoutes = [
     headerShown: true,
   },
 ];
-
 const HomeStack = [
   {
     name: "Home",
@@ -25,5 +24,4 @@ const HomeStack = [
     headerShown: true,
   },
 ];
-
 export const containStackRoutes = [...HomeStack, ...MainStackRoutes];

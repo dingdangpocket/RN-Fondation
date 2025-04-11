@@ -47,8 +47,6 @@ const useStorageBinCode = (
       notification.open({ message: res?.msg });
     }
   };
-
   return { getStorageBinCodeByContainerCode };
 };
-
 export default useStorageBinCode;

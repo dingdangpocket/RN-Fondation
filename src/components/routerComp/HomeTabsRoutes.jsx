@@ -66,7 +66,7 @@ const HomeTabsRoutes = () => {
               },
             }}
             component={item.component}
-            initialParams={{ fromPage: "" }} //初始参数
+            initialParams={{ fromPage: "" }} 
           />
         );
       })}

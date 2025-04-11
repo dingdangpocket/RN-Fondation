@@ -1,5 +1,4 @@
 import { API_URL, VERSION } from "src/api/apiConfig";
-
 const fetchData = async (params, retryCount = 0) => {
   if (!params || !params.path || !params.method) {
     throw new Error("Invalid params: 'path' and 'method' are required.");

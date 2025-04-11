@@ -11,7 +11,6 @@ import React from "react";
 import { SafeAreaView } from "react-native";
 import RoutesNav from "./src/components/routerComp/RoutesNav";
 import 'src/assets/i18n/i18n';
-
 const App = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
