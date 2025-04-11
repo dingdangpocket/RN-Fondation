@@ -9,7 +9,7 @@
 // import codePush from "react-native-code-push";
 import React from "react";
 import { SafeAreaView } from "react-native";
-import RoutesNav from "./src/components/RoutesNav";
+import RoutesNav from "./src/components/routerComp/RoutesNav";
 
 const App = () => {
   return (

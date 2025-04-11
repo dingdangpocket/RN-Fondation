@@ -1,7 +1,6 @@
 import React from "react";
 import { TouchableOpacity, Image } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import { rpx2dp } from "src/functions/scale";
 const BackButton = ({ onPress }) => {
   const navigation = useNavigation();
   const handlePress = () => {

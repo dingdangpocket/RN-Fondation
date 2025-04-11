@@ -5,18 +5,14 @@ const fetchData = async (params, retryCount = 0) => {
     throw new Error("Invalid params: 'path' and 'method' are required.");
   }
   const MAX_RETRIES = 3;
-  const TIMEOUT_MS = 5000;
+  const TIMEOUT_MS = 10000;
 
   try {
-    // 创建 AbortController 实例
     const controller = new AbortController();
     const signal = controller.signal;
-
-    // 设置超时
     const timeoutId = setTimeout(() => {
       controller.abort();
     }, TIMEOUT_MS);
-
     const response = await fetch(`${API_URL}${params.path}`, {
       method: params.method,
       headers: {
