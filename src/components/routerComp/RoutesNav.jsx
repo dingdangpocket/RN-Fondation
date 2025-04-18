@@ -7,7 +7,7 @@ import Login from "src/screens/loginStack/Login";
 
 const Stack = createStackNavigator();
 const RoutesNav = () => {
-  const [initPage, setInitPage] = useState();
+  const [initPage, setInitPage] = useState("Login");
   //case:1程序重新启动时登陆过期检查，如果存在且没有过期，将初始页面设置HOME；否则初始页设置为登陆页用户进行登陆;
   return (
     <NavigationContainer>
@@ -16,14 +16,14 @@ const RoutesNav = () => {
           <Stack.Screen
             name="Login"
             component={Login}
-            options={{ header: () => null, title: "登陆" }}
+            options={{ header: () => null }}
           />
           <Stack.Screen
             name="HomeTabs"
             component={HomeTabRoutes}
-            options={{ header: () => null, title: "首页" }}
+            options={{ header: () => null }}
           />
-          {containStackRoutes.map((item) => {
+          {containStackRoutes?.map((item) => {
             return (
               <Stack.Screen
                 key={item.name}

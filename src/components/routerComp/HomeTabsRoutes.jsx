@@ -6,13 +6,14 @@ import WorkTab from "src/screens/tabScreens/WorkTab";
 import { TouchableOpacity } from "react-native";
 import { WorkTabIcon } from "src/icons";
 import { useTranslation } from "react-i18next";
-const Tab = createBottomTabNavigator();
+
 const IconSet = {
   ACTIVE_WorkTab: <WorkTabIcon width="68%" height="68%" color="#1296db" />,
   UNACTIVE_WorkTab: <WorkTabIcon width="68%" height="68%" color="#6b6a62" />,
   ACTIVE_TasksTab: <WorkTabIcon width="63%" height="63%" color="#1296db" />,
   UNACTIVE_TasksTab: <WorkTabIcon width="63%" height="63%" color="#6b6a62" />,
 };
+const Tab = createBottomTabNavigator();
 const HomeTabsRoutes = () => {
   const { t } = useTranslation();
   const HomeTabRoutesConfig = [
@@ -50,7 +51,7 @@ const HomeTabsRoutes = () => {
         ),
       })}
     >
-      {HomeTabRoutesConfig.map((item) => {
+      {HomeTabRoutesConfig?.map((item) => {
         return (
           <Tab.Screen
             key={item.name}
@@ -66,7 +67,7 @@ const HomeTabsRoutes = () => {
               },
             }}
             component={item.component}
-            initialParams={{ fromPage: "" }} 
+            initialParams={{ fromPage: "" }}
           />
         );
       })}

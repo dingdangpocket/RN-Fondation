@@ -8,12 +8,14 @@ import {
   Dimensions,
   PermissionsAndroid,
   ImageBackground,
+  Text,
 } from "react-native";
 import { useContext } from "react";
-import CustomButton from "src/components/CustomButton";
 import { LogoIcon } from "src/icons/index";
 import { useNavigation } from "@react-navigation/native";
 import { ContentContext } from "src/context/ContextProvider";
+import { TouchableOpacity } from "react-native-gesture-handler";
+import scale from "src/functions/scale";
 
 const Login = () => {
   const { width } = Dimensions.get("window");
@@ -57,21 +59,9 @@ const Login = () => {
         }}
       >
         <LogoIcon width="45%" height="45%" />
-        <CustomButton
-          title="登录"
-          titleColor="white"
-          fontSize={18}
-          width={width * 0.85}
-          height={50}
-          backgroundColor="#004D92"
-          borderRadius={2.5}
-          marginTop={50}
-          align={{
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-          onPress={onLogin}
-        />
+        <TouchableOpacity onPress={onLogin}>
+          <Text style={{ fontSize: scale(50) }}>Navigate</Text>
+        </TouchableOpacity>
       </View>
     </ImageBackground>
   );
